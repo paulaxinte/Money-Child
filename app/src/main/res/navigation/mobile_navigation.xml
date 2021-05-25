@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_chores">
+
+    <fragment
+        android:id="@+id/nav_chores"
+        android:name="com.example.moneychild.ui.chores.ChoresFragment"
+        android:label="@string/menu_chores"
+        tools:layout="@layout/fragment_children">
+        <action
+            android:id="@+id/action_nav_chores_to_createChoreFragment"
+            app:destination="@id/createChoreFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_children"
+        android:name="com.example.moneychild.ui.children.ChildrenFragment"
+        android:label="@string/menu_children"
+        tools:layout="@layout/fragment_children" >
+        <action
+            android:id="@+id/action_nav_children_to_addChildFragment"
+            app:destination="@id/addChildFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.moneychild.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/createChoreFragment"
+        android:name="com.example.moneychild.ui.chores.CreateChoreFragment"
+        android:label="@string/fragment_chores"
+        tools:layout="@layout/fragment_create_chore" >
+        <action
+            android:id="@+id/action_createChoreFragment_to_nav_chores"
+            app:destination="@id/nav_chores" />
+    </fragment>
+    <fragment
+        android:id="@+id/addChildFragment"
+        android:name="com.example.moneychild.ui.children.AddChildFragment"
+        android:label="@string/fragment_children"
+        tools:layout="@layout/fragment_add_child" >
+        <action
+            android:id="@+id/action_addChildFragment_to_nav_children"
+            app:destination="@id/nav_children" />
+    </fragment>
+</navigation>

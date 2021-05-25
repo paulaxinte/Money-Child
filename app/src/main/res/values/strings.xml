@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Money Child</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Money Child</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="fragment_chores">Create chore</string>
+    <string name="fragment_update_chores">Update chore</string>
+    <string name="fragment_children">Add child</string>
+
+    <string name="menu_chores">Chores</string>
+    <string name="menu_children">Children</string>
+    <string name="menu_send">Send</string>
+    <string name="send_button">Yes, send chores</string>
+
+    <string name="chore_title">Title</string>
+    <string name="chore_reward">Reward</string>
+    <string name="chore_child">Child</string>
+    <string name="create_chore_button">Create</string>
+    <string name="update_chore_button">Update</string>
+    <string name="delete_chore_button">Delete</string>
+
+    <string name="child_name">Name</string>
+    <string name="child_email">E-mail address</string>
+    <string name="add_child_button">Add</string>
+    <string name="send_question">Are you sure you want to send this list of chores to your children?</string>
+
+    <string name="chores_details">Chore: %1$s \n Child: %2$s \n Reward %3$s \n\n</string>
+</resources>
