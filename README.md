@@ -1,4 +1,4 @@
-# Money-Child
+# Money Child
 
 ## A productivity app to help with chores
 
